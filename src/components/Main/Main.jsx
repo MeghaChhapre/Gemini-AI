@@ -11,7 +11,7 @@ const Main = () => {
   return (
     <div className='main'>
       <div className="nav">
-        <p>Gemini</p>
+        <h4>Gemini</h4>
         <img src={assets.user_icon} alt="" />
       </div>
       <div className="main-container">
@@ -20,8 +20,8 @@ const Main = () => {
         {!showResult
         ?<>
         <div className="greet">
-          <p><span>Hello, Megha</span></p>
-          <p>How can I help you</p>
+          <p><span>Hello!</span></p>
+          <p>How can I help you?</p>
         </div>
         <div className="cards">
           <div className="card">
